@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+} 
+#title{
+    text-align: center;
+    
+}  
+#music-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress-container {
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    height: 4px;
+    width: 140px;
+    margin-left: 30px;
+  }
+  
+  .progress {
+    background-color: #fe8daa;
+    border-radius: 5px;
+    height: 100%;
+    width: 0%;
+    transition: width 0.1s linear;
+  }
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: black;
+    color: blanchedalmond;
+}
+.d1{
+    margin-left: 90vh;
+    border: 2px solid purple;
+    height: 440px;
+    width: 300px;
+    border-radius: 50px;
+}
+#cover{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin-left: 70px;
+    border-radius: 50px;
+}
